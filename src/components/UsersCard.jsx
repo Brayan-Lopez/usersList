@@ -10,9 +10,9 @@ const UsersCard = ({user, deletUser, clickToEditCardUser, isShowDelete, closeMod
   return (
     <article className='userCard'>
       <div className='userCard-img'>
-        <div>
+        {/* <div>
           <img src={`${user.image_url}`} />
-        </div>
+        </div> */}
       </div>
       <h3>{`${user.first_name} ${user.last_name}`}</h3>
       <ul className='userCard-data'>

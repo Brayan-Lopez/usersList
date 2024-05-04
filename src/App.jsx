@@ -15,7 +15,7 @@ function App() {
 
   const {handleSubmit,  register, reset, formState} = useForm()
 
-  const BASE_URL = "https://users-crud.academlo.tech"
+  const BASE_URL = "http://localhost:3000"
   
   const submit = (data) => {
     if(idMovieToEdit){
@@ -43,7 +43,7 @@ function App() {
       email:"",
       password:"",
       birthday:"",
-      image_url:""
+      // image_url:""
   })
   }
 

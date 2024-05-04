@@ -46,13 +46,13 @@ const Modal = ({isShowForm, closeModal, handleSubmit, register, submit, idMovieT
           })} type='date' />
           {errors.birthday && <small className='alertInput'>* Campo requerido</small>}
         </div>
-        <div>
+        {/* <div>
           <label htmlFor="image_url">Url Imagen</label>
           <input id='image_url' {...register("image_url", {
              required: true
           })} type='text' />
           {errors.image_url && <small className='alertInput'>* Campo requerido</small>}
-        </div>
+        </div> */}
         <div className='modal-button hover'>
           <button>{idMovieToEdit ? "Actualizar usuario":"Agregar Ususario"}</button>
         </div>
