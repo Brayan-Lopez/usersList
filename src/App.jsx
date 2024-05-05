@@ -15,7 +15,7 @@ function App() {
 
   const {handleSubmit,  register, reset, formState} = useForm()
 
-  const BASE_URL = "http://localhost:3000"
+  const BASE_URL = "https://users-practice-api.onrender.com"
   
   const submit = (data) => {
     if(idMovieToEdit){
